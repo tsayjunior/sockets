@@ -42,7 +42,7 @@ public class ServidorUdp {
 
 
                 DatagramPacket respuesta = new DatagramPacket(buffer, buffer.length, direccion, puertoCliente);
-
+ 
                 System.out.println("Envio informacion del cliente");
                 socketUDP.send(respuesta);
             }
